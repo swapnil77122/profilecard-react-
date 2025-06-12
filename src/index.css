@@ -1,0 +1,18 @@
+/* Reset browser default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 110%;
+  width: 100%;
+  font-family: Arial, sans-serif;
+}
+
+/* Ensure root element takes full height */
+#root {
+  height: 110%;
+  background-color: black;
+}
